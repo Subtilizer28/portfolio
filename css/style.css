@@ -205,8 +205,9 @@ body {
   align-items: center;
   justify-content: center;
   color: #ffffff;
-  min-height: 70px;
+  min-height: 150px;
   text-align: center;
+
 }
 
 #footer a {
