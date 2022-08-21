@@ -331,12 +331,12 @@ body {
 .time {
   font-size: 80px;
   font-weight: bold;
-  color: #fff;
+  color: var(--bg-secondary);
 }
 
 .date-time {
   font-size: 20px;
-  color: #fff;
+  color: var(--bg-secondary);
 }
 
 @media screen and (max-width: 768px) {
