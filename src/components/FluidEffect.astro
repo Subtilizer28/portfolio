@@ -1,15 +1,5 @@
-<canvas id="fluid"></canvas>
+<canvas class="fixed top-0 left-0 w-[100dvw] h-[100dvh] -z-40" id="fluid"></canvas>
 
-<style>
-  #fluid {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100dvw;
-    height: 100dvh;
-    z-index: -40;
-  }
-</style>
 <script lang="js" is:inline>
   document.addEventListener("DOMContentLoaded", () => {
     initFluid();
@@ -1297,10 +1287,8 @@
     }
 
     function generateColor() {
-      // Using Primary Color (#F7374F)
-      let c = HSVtoRGB(0.95, 1, 0.97); // Primary color (F7374F - Red-Pink)
+      let c = HSVtoRGB(0.95, 1, 0.97);
 
-      // Optional: Dim the color (e.g., 50% brightness)
       c.r *= 0.5;
       c.g *= 0.5;
       c.b *= 0.5;
