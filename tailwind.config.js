@@ -10,6 +10,7 @@ export default {
         secondary: '#88304E',
         accent: '#522546',
         neutral: '#2C2C2C',
+        textcolor: "#F1F1F1",
       },
     },
   },
