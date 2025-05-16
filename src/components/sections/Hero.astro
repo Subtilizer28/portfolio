@@ -1,5 +1,6 @@
 ---
 import Button from "../Button.astro";
+import Spiderman from "../Spiderman.astro";
 const name = "Ashton Prince Mathias";
 const title = "Full Stack Developer";
 const tagline = "Building impactful, responsive digital experiences while learning and growing in the world of technology.";
@@ -7,6 +8,10 @@ const resumeLink = "/Resume.pdf";
 ---
 
 <section id="home" class="select-none relative z-10 flex min-h-screen w-full flex-col items-center justify-center px-4 text-center text-textcolor md:px-8">
+  <div class="absolute top-32 md:top-52 md:right-32">
+    <Spiderman />
+  </div>
+  <img src="/logo.png" alt="Logo" class="relative w-48 h-48 m-4" />
   <h1 class="text-4xl font-extrabold sm:text-5xl md:text-6xl">
     Hey, I'm <span class="text-primary"> {name}</span>
   </h1>
